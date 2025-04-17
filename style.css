@@ -1,0 +1,21 @@
+.logo img{
+    width: 150px;
+    height: 100%;
+}
+.header-page{
+    padding-top: 20px;
+}
+.search-box{
+    width: 500px;
+}
+.search-box input{
+    height: 50px;
+    padding-left: 35px;
+    border: 1px solid black;
+}
+.service{
+    padding-left: 10px;
+}
+.input{
+    align-items: flex-end;
+}
