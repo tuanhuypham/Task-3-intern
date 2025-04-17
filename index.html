@@ -9,10 +9,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap 5 Demo</title>
-    <!-- Gắn Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-5.0.2/css/bootstrap.min.css">
-    <!-- Gắn CSS riêng nếu có -->
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -26,6 +27,28 @@
                               <img src="/img/logo.jpg" alt="">
                           </div>
                       </div>
+                      <ul class="list-group list-group-light">
+                          <li class="list-group-item px-3 border-0">
+                              <h6>
+                                  Trang chủ
+                              </h6>
+                          </li>
+                          <li class="list-group-item px-3 border-0">
+                              <p>Dịch vụ - Tiện ích</p>
+                          </li>
+                          <li class="list-group-item px-3 border-0">
+                              <p>Giá vé - Vé tháng</p>
+                          </li>
+                          <li class="list-group-item px-3 border-0">
+                              <p>Giá vé - Vé tháng</p>
+                          </li>
+                          <li class="list-group-item px-3 border-0">
+                              <p>Tin tức - Sự kiện</p>
+                          </li>
+                          <li class="list-group-item px-3 border-0">
+                              <p>Hỏi đáp - Liên hệ</p>
+                          </li>
+                      </ul>
                   </div>
                   <div class="col-9">
                       <div class="container input d-flex">
@@ -65,9 +88,9 @@
                               </div>
                           </div>
                       </div>
-                      <div class="container">
-                          <div>
-                              <img src="" alt="">
+                      <div class="container d-flex flex-column align-items-center">
+                          <div class="logo-2 p-10" >
+                              <img src="img/logo.jpg" alt="">
                           </div>
                           <div>
                               <h2>
@@ -75,7 +98,7 @@
                               </h2>
                           </div>
                           <div>
-                              <p>Lorem ipsum dolor sit amet consectetur. Posuere id malesuada sem sit. Erat tempus sed at amet nunc. Quis adipiscing cursus ultrices suspendisse eget sit. Adipiscing potenti leo nam diam nisi luctus tincidunt.</p>
+                              <p class="text-center">Lorem ipsum dolor sit amet consectetur. Posuere id malesuada sem sit. Erat tempus sed at amet nunc. Quis adipiscing cursus ultrices suspendisse eget sit. Adipiscing potenti leo nam diam nisi luctus tincidunt.</p>
                           </div>
                       </div>
                       <div class="container">
@@ -266,46 +289,30 @@
                                   <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                                       <!-- Links -->
                                       <h6 class="text-uppercase fw-bold">Useful links</h6>
-                                      <hr
-                                              class="mb-4 mt-0 d-inline-block mx-auto"
-                                              style="width: 60px; background-color: #7c4dff; height: 2px"
-                                      />
                                       <p>
-                                          <a href="#!" class="text-white">Your Account</a>
+                                          Giấy chứng nhận đăng ký Doanh nghiệp số:
+                                          9999999999
                                       </p>
                                       <p>
-                                          <a href="#!" class="text-white">Become an Affiliate</a>
+                                          Ngày cấp 01/01/2023
                                       </p>
                                       <p>
-                                          <a href="#!" class="text-white">Shipping Rates</a>
+                                          Nơi cấp: Tp. Hồ Chí Minh
                                       </p>
-                                      <p>
-                                          <a href="#!" class="text-white">Help</a>
-                                      </p>
+                                     <input>
+
                                   </div>
                                   <!-- Grid column -->
 
                                   <!-- Grid column -->
                                   <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                                      <!-- Links -->
-                                      <h6 class="text-uppercase fw-bold">Contact</h6>
-                                      <hr
-                                              class="mb-4 mt-0 d-inline-block mx-auto"
-                                              style="width: 60px; background-color: #7c4dff; height: 2px"
-                                      />
-                                      <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                                      <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                                      <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                                      <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                                      <div>
+                                          <button>Đăng ký nhận Email</button>
+                                      </div>
                                   </div>
-                                  <!-- Grid column -->
                               </div>
-                              <!-- Grid row -->
                           </div>
                       </section>
-                      <!-- Section: Links  -->
-
-                      <!-- Copyright -->
                       <div
                               class="text-center p-3"
                               style="background-color: rgba(0, 0, 0, 0.2)"
@@ -313,13 +320,9 @@
                           <h6>
                               Copyright 2023 Salaword
                           </h6>
-
                       </div>
-                      <!-- Copyright -->
                   </footer>
-                  <!-- Footer -->
               </div>
-              <!-- End of .container -->
           </footer>
       </div>
   </div>
